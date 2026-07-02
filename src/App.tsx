@@ -81,6 +81,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 7,
+    episode: 'EP.07',
+    brand: 'Inogen · PulmoTech · Sentec',
+    title: 'Le Concentrateur d\'Oxygène Portable',
+    hook: "Quand l'insuffisance respiratoire s'habille en lifestyle",
+    uglyDiag: "Lourde sacoche noire en similicuir rigide. Vibrations et ronronnement bruyant. Air chaud recraché. Lunettes nasales en plastique transparent. L'affichage public d'une insuffisance respiratoire sévère.",
+    whyUgly: "Porter un concentrateur d'oxygène portable a longtemps rimé avec fardeau visuel : une lourde sacoche noire en similicuir rigide qui vibre et ronronne bruyamment, reliée à des lunettes nasales en plastique transparent bien visibles sur le visage. C'est l'affichage public d'une insuffisance respiratoire sévère — une image associée au vieillissement et à la maladie chronique. La définition même du Ugly DM : un dispositif historiquement ingrat et stigmatisant.",
+    revolution: [
+      { label: 'Intégration textile lifestyle', text: "Les derniers modèles se fondent dans des sacs à dos techniques en toile déperlante ou des sacoches croisées directement inspirées de la maroquinerie urbaine. Le dispositif médical disparaît dans un accessoire du quotidien." },
+      { label: 'Acoustique automobile', text: "Le bruit du compresseur est étouffé par des mousses acoustiques issues de l'industrie automobile. La signature sonore stigmatisante s'efface progressivement." },
+      { label: 'Canules invisibles', text: "Les canules nasales adoptent des teintes de peau ou des textures mates pour s'effacer visuellement. Le design d'interface physique transforme le stigmate en discrétion." },
+    ],
+    verdict: "La beauté de cette évolution ne réside pas dans un esthétisme de luxe superficiel, mais dans une ergonomie ultra-pensée et une empathie profonde pour l'utilisateur. Le patient ne transporte plus un poids médical encombrant — il porte un accessoire du quotidien optimisé pour son autonomie intime. C'est l'essence même du Ugly DM : transformer le stigmate en dignité par l'intelligence du design.",
+    handNote: 'Du fardeau médical → accessoire du quotidien',
+    tags: ['#Inogen', '#OxygènePortable', '#InsuffisanceRespiratoire', '#LifestyleDesign'],
+    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_uglydm-activity-7478352586870407168-Kx87',
+    tapeColor: '#2A7F7F',
+    accentHex: '#1E6B6B',
+    rotate: '-rotate-0.5',
+    stampText: 'FARDEAU',
+    stampColor: '#888',
+    img: '/Gemini_Generated_Image_v08brpv08brpv08b.png',
+    imgCaption: 'Concentrateur portable → sacoche urbaine technique',
+    imgRotate: '1deg',
+  },
+  {
     id: 1,
     episode: 'EP.06',
     brand: 'ResMed · AirFit',
