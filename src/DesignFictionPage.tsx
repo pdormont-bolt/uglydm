@@ -100,7 +100,7 @@ const article = {
   tapeColor: '#2A6B3A',
   accentHex: '#1F5C30',
   stampText: 'STIGMATE',
-  img: '/Gemini_Generated_Image_tgk7v1tgk7v1tgk7.png',
+  img: '/Gemini_Generated_Image_q0j4g5q0j4g5q0j4.png',
   imgCaption: 'Bande K2 → équipement outdoor haute montagne',
   imgRotate: '-1.2deg',
 };
