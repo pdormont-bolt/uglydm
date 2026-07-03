@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
+import DesignFictionPage from './DesignFictionPage';
 
 // ─── SVG Decorative Components ───────────────────────────────────────────────
 
@@ -460,6 +461,12 @@ function ArticleCard({ article }: { article: typeof articles[0] }) {
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
+  const [page, setPage] = useState<'home' | 'design-fiction'>('home');
+
+  if (page === 'design-fiction') {
+    return <DesignFictionPage onBack={() => setPage('home')} />;
+  }
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#F2E8D9' }}>
 
@@ -515,6 +522,11 @@ export default function App() {
                   {label}
                 </a>
               ))}
+              <button
+                onClick={() => setPage('design-fiction')}
+                className="px-4 py-2 text-[11px] font-black text-[#1B2D5B] hover:bg-[#1B2D5B] hover:text-[#F2E8D9] transition-colors border-2 border-[#1B2D5B] tracking-wide uppercase font-mono">
+                Design Fiction
+              </button>
               <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
                 className="px-4 py-2 text-sm font-black text-[#C94F3B] hover:bg-[#C94F3B] hover:text-[#F2E8D9] transition-colors border-2 border-[#C94F3B] tracking-wide uppercase font-mono text-[11px]">
                 Veille MedTech
