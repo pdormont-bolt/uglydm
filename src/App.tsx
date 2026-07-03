@@ -515,6 +515,10 @@ export default function App() {
                   {label}
                 </a>
               ))}
+              <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
+                className="px-4 py-2 text-sm font-black text-[#C94F3B] hover:bg-[#C94F3B] hover:text-[#F2E8D9] transition-colors border-2 border-[#C94F3B] tracking-wide uppercase font-mono text-[11px]">
+                Veille MedTech
+              </a>
             </nav>
           </div>
         </div>
