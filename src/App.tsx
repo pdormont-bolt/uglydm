@@ -227,7 +227,7 @@ const articles = [
     verdict: "En transformant un sac plastique médical en un élément textile discret, le design réussit l'essentiel : transformer le stigmate en dignité et redonner le pouvoir au patient.",
     handNote: 'Du plastique brut → au textile technique',
     tags: ['#Coloplast', '#Convatec', '#Stomie'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-innovationsante-designforgood-activity-7468596164599173121-arf5',
+    url: 'https://www.linkedin.com/posts/convergence-sante-inkkreation_peut-on-parler-de-dignit%C3%A9-%C3%A0-propos-dune-activity-7482341933563084800-1V7y',
     tapeColor: '#2A7F7F',
     accentHex: '#2A7F7F',
     rotate: 'rotate-0',
