@@ -82,6 +82,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 8,
+    episode: 'EP.08',
+    brand: 'iRhythm · Zio · VitalConnect',
+    title: 'Le Moniteur Holter ECG',
+    hook: 'Quand le carcan de câbles se fait pansement intelligent',
+    uglyDiag: "Boîtier lourd fixé à la ceinture. Nœud de cinq à dix câbles colorés scotchés sur le torse. Électrodes adhésives qui démangent. Bosse suspecte sous les vêtements. Impossible de se doucher. Sensation constante d'être branché à une machine de réanimation.",
+    whyUgly: "Le Holter traditionnel est l'archétype du dispositif encombrant et anxio-gène. Un boîtier lourd fixé à la ceinture, relié à un nœud de cinq à dix câbles colorés scotchés sur le torse. Des électrodes adhésives qui démangent, une bosse suspecte sous les vêtements, l'impossibilité de se doucher et cette sensation constante d'être branché à une machine de réanimation.",
+    revolution: [
+      { label: 'Patch discret', text: "Les concepteurs ont réussi l'exploit de condenser toute l'électronique dans un unique capteur souple, ultra-léger et étanche, directement collé sur le sternum." },
+      { label: 'Pansement sportif', text: "Visuellement, l'objet ressemble à un grand pansement sportif en silicone texturé blanc ou gris. Il s'oublie sous les vêtements et résiste à la douche." },
+      { label: 'Transmission smartphone', text: "Les données sont transmises au smartphone sans aucun fil visible. Le patient n'est plus enchaîné à une machine — il vit normalement pendant que son cœur est surveillé." },
+    ],
+    verdict: "La véritable valeur de cet Ugly DM ne réside pas dans un esthétisme de luxe ou superficiel, mais dans sa richesse intérieure et son empathie profonde pour l'utilisateur. En remplaçant le carcan de câbles par un pansement intelligent, le design redonne instantanément liberté, discrétion et dignité au patient dans son quotidien.",
+    handNote: 'Du carcan de câbles → pansement intelligent',
+    tags: ['#Medtech', '#UglyDM', '#Cardiologie', '#DesignMedical', '#InnovationSante', '#eSante'],
+    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-uglydm-cardiologie-share-7487402257186058240-xTxC/',
+    tapeColor: '#C72C2C',
+    accentHex: '#C72C2C',
+    rotate: 'rotate-0.5',
+    stampText: 'CARCAN',
+    stampColor: '#888',
+    img: '/holter-ecg-patch.jpg',
+    imgCaption: 'Holter ECG → patch cardiaque discret et étanche',
+    imgRotate: '-1deg',
+  },
+  {
     id: 7,
     episode: 'EP.07',
     brand: 'Inogen · PulmoTech · Sentec',
