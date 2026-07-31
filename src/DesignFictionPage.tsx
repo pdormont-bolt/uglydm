@@ -161,6 +161,39 @@ const articles: DesignArticle[] = [
     imgCaption: 'Canne blanche → copilote intelligent à cartographie 3D',
     imgRotate: '1deg',
   },
+  {
+    id: 3,
+    episode: 'EP.03',
+    brand: 'Urgo Medical · Thuasne · Convergence Santé',
+    title: 'Le K2 Réinventé pour le Dénivelé Suisse',
+    hook: "Le design fiction peut-il redéfinir la compression veineuse en terrain helvétique ?",
+    uglyDiag: "Massive, épaisse, beige médical complexant. S'harmonise très mal avec des chaussures de randonnée. L'archétype du stigmate clinique ambulant dans les rues lausannoises et les sentiers valaisans.",
+    whyUgly: "En Suisse, la marche reste reine, même pour nos aînés. Mais nos rues lausannoises et nos sentiers valaisans mettent les veines à rude épreuve. Pour traiter l'insuffisance veineuse profonde, les bandes de compression type Urgo K2 ou Thuasne Biflex restent incontournables. Elles sont massives, épaisses et souvent d'un beige médical complexant qui s'harmonise très mal avec des chaussures de randonnée. C'est l'archétype du stigmate clinique ambulant.",
+    revolution: [
+      {
+        label: 'Textile outdoor bi-couche',
+        text: "Exit le beige hôpital. Un textile rugueux et protecteur inspiré des équipements de haute montagne assume son côté outdoor. La bande ne cherche plus à se cacher — elle s'affiche comme un équipement de performance.",
+      },
+      {
+        label: 'Capteurs de pression tissés',
+        text: "Des capteurs de pression souples sont tissés à même la fibre. Ils sont reliés à une mini-interface physique clipsée à la cheville. Ce boîtier intègre un algorithme d'adaptation barométrique qui calcule la pression idéale en temps réel, selon que le randonneur monte ou descend une pente.",
+      },
+      {
+        label: 'UI mécanique barométrique',
+        text: "Grâce à une UI mécanique épurée et lisible en plein soleil, le patient sait exactement s'il doit ajuster la tension de sa bande pour éviter l'ischémie ou l'effet garrot en pleine balade. L'objet ne cherche pas à être invisible, il devient un outil de performance et d'autonomie.",
+      },
+    ],
+    verdict: "Ce genre de design fiction bouscule les codes industriels et remet l'empathie utilisateur au centre de l'ingénierie biomédicale. Chez Convergence Santé - Inkkreation, nous pensons que la dignité des patients passe par un design qui assume la technicité, plutôt que de tenter de la cacher misérablement sous le pantalon. C'est toute la philosophie du Ugly DM : un objet d'apparence brute, mais doté d'une richesse ergonomique intérieure totale.",
+    handNote: 'Du stigmate clinique → équipement outdoor autonome',
+    tags: ['#Medtech', '#SwissHealthValley', '#UglyDM', '#InnovationMedicale', '#DesignFiction', '#CompressionVeineuse', '#ConvergenceSante'],
+    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-swisshealthvalley-uglydm-share-7473730421760118785-2nWl/',
+    tapeColor: '#1F5C30',
+    accentHex: '#2A6B3A',
+    stampText: 'STIGMATE',
+    img: '/k2-swiss-hike.jpg',
+    imgCaption: 'Bande K2 → équipement outdoor pour le dénivelé suisse',
+    imgRotate: '-0.8deg',
+  },
 ];
 
 interface Props {
