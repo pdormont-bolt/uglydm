@@ -123,7 +123,7 @@ const articles = [
     verdict: "La véritable valeur de cet Ugly DM ne réside pas dans un esthétisme de luxe ou superficiel, mais dans sa richesse intérieure et son empathie profonde pour l'utilisateur. En remplaçant le carcan de câbles par un pansement intelligent, le design redonne instantanément liberté, discrétion et dignité au patient dans son quotidien.",
     handNote: 'Du carcan de câbles → pansement intelligent',
     tags: ['#Medtech', '#UglyDM', '#Cardiologie', '#DesignMedical', '#InnovationSante', '#eSante'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-uglydm-cardiologie-share-7487402257186058240-xTxC/',
+    url: 'https://lnkd.in/p/eCrtm3w9',
     tapeColor: '#C72C2C',
     accentHex: '#C72C2C',
     rotate: 'rotate-0.5',
@@ -149,7 +149,7 @@ const articles = [
     verdict: "La beauté de cette évolution ne réside pas dans un esthétisme de luxe superficiel, mais dans une ergonomie ultra-pensée et une empathie profonde pour l'utilisateur. Le patient ne transporte plus un poids médical encombrant — il porte un accessoire du quotidien optimisé pour son autonomie intime. C'est l'essence même du Ugly DM : transformer le stigmate en dignité par l'intelligence du design.",
     handNote: 'Du fardeau médical → accessoire du quotidien',
     tags: ['#Inogen', '#OxygènePortable', '#InsuffisanceRespiratoire', '#LifestyleDesign'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_uglydm-activity-7478352586870407168-Kx87',
+    url: 'https://lnkd.in/p/e_3w5ujt',
     tapeColor: '#2A7F7F',
     accentHex: '#1E6B6B',
     rotate: '-rotate-0.5',
@@ -175,7 +175,7 @@ const articles = [
     verdict: "À l'image d'Ugly Betty, ce dispositif autrefois ingrat révèle sa vraie beauté par une ergonomie ultra-pensée et une empathie profonde pour l'utilisateur. Désormais, la technique médicale ne s'impose plus au corps, elle l'accompagne avec douceur. C'est l'essence même du Ugly DM : transformer le stigmate en dignité par l'intelligence du design.",
     handNote: 'La technique accompagne avec douceur',
     tags: ['#ResMed', '#ApneeDuSommeil', '#DesignEmpathique', '#MedTech'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_convergencesante-inkkreation-uglydm-share-7472282620278755330-aiZD/',
+    url: 'https://lnkd.in/p/eA-UiwSQ',
     tapeColor: '#5B4C8A',
     accentHex: '#5B4C8A',
     rotate: 'rotate-0.5',
@@ -201,7 +201,7 @@ const articles = [
     verdict: "À l'image d'une Ugly Betty du médical, l'objet transcende sa lourdeur héritée de l'hôpital grâce à une richesse intérieure incroyable. Ce n'est pas de l'esthétisme superficiel — c'est une ergonomie ultra-pensée et une empathie profonde pour l'utilisateur. Le design médical ne doit plus seulement sauver des vies, il doit protéger la santé mentale de ceux qui l'utilisent au quotidien.",
     handNote: 'Le design protège la santé mentale',
     tags: ['#Dialyse', '#MedTech', '#DesignHospitalier', '#DialyseADomicile'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-designhospitalier-dialyseadomicile-share-7472191998050078720-E2-n/',
+    url: 'https://lnkd.in/p/ecD5B7Fg',
     tapeColor: '#4A5568',
     accentHex: '#4A5568',
     rotate: '-rotate-0.5',
@@ -227,7 +227,7 @@ const articles = [
     verdict: "La protection technique moderne utilise le design comme un bouclier d'estime de soi. L'innovation technique (les polymères) n'est rien sans l'innovation d'usage (la culotte textile). Le design ne sert plus seulement à absorber — il sert à rassurer, à inclure et à redonner une dignité immense.",
     handNote: 'Design = bouclier identitaire !',
     tags: ['#TENA', '#Incontinence', '#InvisibleDesign'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-innovationsante-designforgood-activity-7470009835619733505-zEM1',
+    url: 'https://lnkd.in/p/euV4Wcwb',
     tapeColor: '#1B2D5B',
     accentHex: '#1B2D5B',
     rotate: '-rotate-1',
@@ -253,7 +253,7 @@ const articles = [
     verdict: "À l'image d'une Ugly Betty qui cache ses forces sous une apparence mal comprise, la sonde urinaire moderne utilise le design comme un bouclier social. L'innovation n'est pas dans une IA ou un écran connecté — elle est dans la forme d'un capuchon qui permet à un patient de retrouver sa liberté, sa confiance et surtout, sa dignité.",
     handNote: 'Trompe-l\'œil = dignité retrouvée !',
     tags: ['#Coloplast', '#SpeediCath', '#AutoSondage', '#InvisibleDesign'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-innovationsante-designforgood-share-7469655217031155712-uXzu/',
+    url: 'https://lnkd.in/p/e4JDRsA5',
     tapeColor: '#B83232',
     accentHex: '#B83232',
     rotate: '-rotate-1',
@@ -279,7 +279,7 @@ const articles = [
     verdict: "En transformant un sac plastique médical en un élément textile discret, le design réussit l'essentiel : transformer le stigmate en dignité et redonner le pouvoir au patient.",
     handNote: 'Du plastique brut → au textile technique',
     tags: ['#Coloplast', '#Convatec', '#Stomie'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-innovationsante-designforgood-activity-7468596164599173121-arf5',
+    url: 'https://lnkd.in/p/emHVSUDH',
     tapeColor: '#2A7F7F',
     accentHex: '#2A7F7F',
     rotate: 'rotate-0',
@@ -623,7 +623,7 @@ export default function App() {
               {/* label */}
               <div className="inline-flex items-center gap-2 bg-[#C94F3B] text-white px-3 py-1 mb-5">
                 <SafetyPin className="w-2.5 h-5" />
-                <span className="text-[10px] font-black tracking-[0.3em] uppercase font-mono">La Série · Jean Bompt</span>
+                <span className="text-[10px] font-black tracking-[0.3em] uppercase font-mono">La Série · Ugly DM</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-black text-white leading-[0.95] mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
@@ -682,7 +682,7 @@ export default function App() {
 
                 <div className="mt-4 pt-3 border-t border-[#2C1810]/15 flex items-center gap-2">
                   <SafetyPin className="w-2.5 h-6 text-[#888]" />
-                  <p className="text-[10px] text-[#888] font-mono tracking-wide">Par Jean Bompt · LinkedIn #UglyDM</p>
+                  <p className="text-[10px] text-[#888] font-mono tracking-wide">LinkedIn Ugly DM</p>
                 </div>
               </div>
             </div>
@@ -830,7 +830,7 @@ export default function App() {
                 "Le design ne sert pas qu'à rendre les objets sexy.
                 Dans la MedTech, il sert à briser l'isolement social."
               </p>
-              <cite className="text-[11px] text-[#888] font-mono not-italic">— Jean Bompt · #UglyDM</cite>
+              <cite className="text-[11px] text-[#888] font-mono not-italic">#UglyDM</cite>
             </blockquote>
           </div>
 
