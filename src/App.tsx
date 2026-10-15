@@ -305,7 +305,7 @@ const articles = [
     verdict: "Le design industriel ne sert pas qu'à rendre les objets \"sexy\". Dans la MedTech, il sert d'abord à briser l'isolement social et à ramener de l'humain dans le soin.",
     handNote: '→ liberté de mouvement retrouvée !',
     tags: ['#Urgo', '#Compression', '#LibertéRetrouvée'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-innovationsante-designforgood-activity-7467471510828384259-U3hX',
+    url: 'https://lnkd.in/p/eYgUfcXV',
     tapeColor: '#C8921A',
     accentHex: '#C8921A',
     rotate: 'rotate-1',
