@@ -82,6 +82,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 10,
+    episode: 'EP.10',
+    brand: 'Lymphœdème · Compression · Post-cancer',
+    title: 'Le Bracelet de Compression Lymphatique',
+    hook: "Et si la compression devenait un vêtement de soin que l'on porte pour soi, et non un objet médical que l'on tente de cacher ?",
+    uglyDiag: "Seconde peau beige, épaisse, difficile à enfiler. Serre, tient chaud et rappelle au corps qu'il n'est plus tout à fait libre. Évoque le bandage, la contention, la maladie.",
+    whyUgly: "Après un cancer, une chirurgie ou une atteinte lymphatique, le bracelet de compression pour lymphœdème accompagne parfois chaque geste, chaque journée, chaque sortie. Pourtant, il évoque souvent le bandage, la contention, la maladie. Une seconde peau beige, épaisse, difficile à enfiler, qui serre, tient chaud et rappelle au corps qu'il n'est plus tout à fait libre. C'est un Ugly DM.",
+    revolution: [
+      { label: 'Maille respirante et silencieuse', text: "Une maille respirante et silencieuse, pensée pour les peaux sensibles. Des zones de compression différenciées, lisibles au toucher, pour faciliter la mise en place sans assistance." },
+      { label: 'Repères discrets intégrés', text: "Des repères discrets intégrés au textile, afin de vérifier son orientation et son positionnement. Une ouverture latérale ou magnétique sécurisée, qui rend l'enfilage possible avec une mobilité réduite." },
+      { label: 'Vêtement technique assumé', text: "Des finitions assumées, inspirées du vêtement technique plutôt que du matériel médical : coloris sobres, détails graphiques, choix de matières. Un système de suivi optionnel indique la durée de port et les signes de mauvaise tolérance, sans transformer l'utilisateur en simple donnée." },
+    ],
+    verdict: "La véritable innovation ne serait pas seulement dans le textile. Elle serait dans la possibilité de reprendre le contrôle d'un geste intime, quotidien, parfois humiliant. Passer de « je dois porter ça » à « j'ai choisi ce qui m'accompagne ». Un Ugly DM ne dissimule pas la vulnérabilité. Il lui donne une forme plus habitable, plus autonome, plus digne.",
+    handNote: "De « je dois porter ça » → « j'ai choisi ce qui m'accompagne »",
+    tags: ['#UglyDM', '#Lymphœdème', '#Compression', '#PostCancer', '#VêtementDeSoin', '#DesignEmpathique'],
+    url: 'https://www.linkedin.com/posts/convergence-sante-inkkreation_uglydm-activity-7491402786761482242-6BVP',
+    tapeColor: '#2A6B5A',
+    accentHex: '#1F5A4A',
+    rotate: '-rotate-0.5',
+    stampText: 'CONTRAINTE',
+    stampColor: '#888',
+    img: '/bracelet-compression.jpg',
+    imgCaption: 'Bracelet de compression → vêtement de soin libérateur',
+    imgRotate: '1deg',
+  },
+  {
     id: 9,
     episode: 'EP.09',
     brand: 'Insulet · OmniPod · Dexcom',
