@@ -97,7 +97,7 @@ const articles = [
     verdict: "La véritable innovation ne serait pas seulement dans le textile. Elle serait dans la possibilité de reprendre le contrôle d'un geste intime, quotidien, parfois humiliant. Passer de « je dois porter ça » à « j'ai choisi ce qui m'accompagne ». Un Ugly DM ne dissimule pas la vulnérabilité. Il lui donne une forme plus habitable, plus autonome, plus digne.",
     handNote: "De « je dois porter ça » → « j'ai choisi ce qui m'accompagne »",
     tags: ['#UglyDM', '#Lymphœdème', '#Compression', '#PostCancer', '#VêtementDeSoin', '#DesignEmpathique'],
-    url: 'https://www.linkedin.com/posts/convergence-sante-inkkreation_uglydm-activity-7491402786761482242-6BVP',
+    url: 'https://lnkd.in/p/eDdtcmJf',
     tapeColor: '#2A6B5A',
     accentHex: '#1F5A4A',
     rotate: '-rotate-0.5',
