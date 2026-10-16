@@ -82,6 +82,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 12,
+    episode: 'EP.12',
+    brand: 'Irrigation transanale · Constipation chronique · Incontinence',
+    title: "Le Système d'Irrigation Transanale",
+    hook: "Passer d'un dispositif que l'on cache à un dispositif qui redonne une liberté que l'on n'a plus besoin de cacher.",
+    uglyDiag: "Une poche d'eau, une pompe manuelle, des tubulures, une sonde rectale, des attaches de jambe. Un équipement technique, visible, intimidant, parfois vécu comme une nouvelle intrusion dans l'intimité.",
+    whyUgly: "Le système d'irrigation transanale est un dispositif médical dont personne ne parle volontiers. Une poche d'eau, une pompe manuelle, des tubulures, une sonde rectale, des attaches de jambe. Un équipement technique, visible, intimidant. Sa « laideur » n'est pas seulement esthétique : elle est symbolique. Le dispositif matérialise une fonction corporelle que l'on voudrait invisible. Il rappelle la dépendance, la peur de l'accident, la nécessité de planifier ses déplacements autour des toilettes. C'est un Ugly DM presque parfait.",
+    revolution: [
+      { label: 'Étui discret et transportable', text: "Une poche qui se replie dans un étui discret, lavable et facilement transportable. Un rangement qui assume l'objet, sans le faire ressembler à un équipement hospitalier." },
+      { label: 'Contrôle à une main, sans jargon', text: "Une unité de contrôle utilisable d'une seule main, avec des repères tactiles et sans jargon. Des tubulures qui se connectent sans erreur et se rangent sans s'emmêler. Un indicateur simple de température, lisible au toucher comme à la vue." },
+      { label: 'Déroulé rassurant étape par étape', text: "Un déroulé étape par étape, rassurant, avec des signaux clairs en cas de problème. Des attaches pensées pour différentes morphologies, sans compression ni exposition inutile." },
+    ],
+    verdict: "Le geste resterait médical. L'expérience, elle, deviendrait plus intime, plus prévisible et plus digne. Le vrai luxe ne serait pas la discrétion absolue. Ce serait de pouvoir sortir, travailler, voyager ou dormir sans organiser toute sa vie autour de la peur d'un accident.",
+    handNote: "Un dispositif que l'on cache → une liberté que l'on n'a plus besoin de cacher",
+    tags: ['#UglyDM', '#IrrigationTransanale', '#ConstipationChronique', '#Incontinence', '#DesignEmpathique', '#Autonomie'],
+    url: 'https://lnkd.in/p/ePR9eAmx',
+    tapeColor: '#5B7A3A',
+    accentHex: '#4A6A2A',
+    rotate: '-rotate-0.5',
+    stampText: 'INTRUSION',
+    stampColor: '#888',
+    img: '/uglydm-ep12.jpg',
+    imgCaption: "Irrigation transanale → kit de maîtrise du temps",
+    imgRotate: '1deg',
+  },
+  {
     id: 11,
     episode: 'EP.11',
     brand: 'Stomie · Vêtement technique · Stomathérapie',
