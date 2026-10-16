@@ -82,6 +82,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 11,
+    episode: 'EP.11',
+    brand: 'Stomie · Vêtement technique · Stomathérapie',
+    title: 'Le « Discret de Poche » pour Stomie',
+    hook: "La poche ne disparaît pas. Mais elle cesse d'être le premier message envoyé par le corps.",
+    uglyDiag: "Volume visible sous les vêtements. Bruit du film plastique. Risque de fuite, odeurs, vidange peu pratique. Rappel permanent d'une fonction corporelle devenue publique. Elle protège, mais elle expose aussi.",
+    whyUgly: "Aujourd'hui, la poche de stomie reste souvent un objet subi : volume visible sous les vêtements, bruit du film plastique, risque de fuite, odeurs, vidange peu pratique et rappel permanent d'une fonction corporelle devenue publique. Elle protège, mais elle expose aussi. C'est un Ugly DM typique : un dispositif ingrat, indispensable, qui stigmatise au quotidien.",
+    revolution: [
+      { label: 'Enveloppe textile modulaire', text: "Une enveloppe textile souple, lavable et personnalisable dissimule la poche médicale sans la comprimer. Sa forme suit les mouvements du corps : assise, marche, sommeil, activité physique." },
+      { label: 'Fenêtre tactile et indicateur discret', text: "Une fenêtre tactile permet de vérifier le niveau sans ouvrir ni manipuler directement le dispositif. Un indicateur discret, visible au toucher plutôt qu'à l'œil, signale le besoin de vidange." },
+      { label: 'Vidange aimantée et filtre anti-odeur', text: "Une sortie de vidange aimantée, orientable d'une seule main, limite les gestes maladroits et les contacts. Un filtre anti-odeur remplaçable et un matériau silencieux réduisent deux marqueurs stigmatisants : le bruit et la peur d'être découvert." },
+    ],
+    verdict: "Le véritable enjeu n'est pas de rendre la stomie « jolie ». C'est de rendre à la personne la maîtrise de son apparence, de ses gestes et de son intimité. Un Ugly DM réussi ne cherche pas à nier la maladie. Il transforme un objet imposé en objet choisi. La personnalisation devient une stratégie de dignité : couleurs sobres ou affirmées, motifs, textures, versions sport, travail ou nuit.",
+    handNote: "La poche ne disparaît pas — elle cesse d'être le premier message du corps",
+    tags: ['#UglyDM', '#Stomie', '#VêtementTechnique', '#Stomathérapie', '#DesignEmpathique', '#Dignité'],
+    url: 'https://lnkd.in/p/erNiz6NU',
+    tapeColor: '#3A6B8A',
+    accentHex: '#2A5A7A',
+    rotate: 'rotate-0.5',
+    stampText: 'EXPOSÉ',
+    stampColor: '#888',
+    img: '/uglydm-ep11.jpg',
+    imgCaption: 'Poche de stomie → vêtement technique modulaire et discret',
+    imgRotate: '-1deg',
+  },
+  {
     id: 10,
     episode: 'EP.10',
     brand: 'Lymphœdème · Compression · Post-cancer',
