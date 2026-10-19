@@ -658,7 +658,8 @@ export default function App() {
                 Design Fiction
               </button>
               <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
-                className="px-4 py-2 text-sm font-black text-[#C94F3B] hover:bg-[#C94F3B] hover:text-[#F2E8D9] transition-colors border-2 border-[#C94F3B] tracking-wide uppercase font-mono text-[11px]">
+                className="group relative inline-flex items-center gap-1.5 px-4 py-2 font-mono text-[11px] font-black uppercase tracking-widest text-[#F2E8D9] bg-[#C94F3B] border-2 border-[#C94F3B] shadow-[3px_3px_0_0_#1B2D5B] hover:shadow-[5px_5px_0_0_#1B2D5B] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-[1px_1px_0_0_#1B2D5B] active:translate-x-0 active:translate-y-0 transition-all duration-150">
+                <ExternalLink className="w-3 h-3 group-hover:rotate-12 transition-transform" />
                 Veille MedTech
               </a>
             </nav>
