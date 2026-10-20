@@ -654,7 +654,7 @@ export default function App() {
               ))}
               <button
                 onClick={() => setPage('design-fiction')}
-                className="px-4 py-2 text-[11px] font-black text-[#1B2D5B] hover:bg-[#1B2D5B] hover:text-[#F2E8D9] transition-colors border-2 border-[#1B2D5B] tracking-wide uppercase font-mono">
+                className="px-4 py-2 text-sm font-black text-[#2C1810] hover:bg-[#2C1810] hover:text-[#F2E8D9] transition-colors border-2 border-transparent hover:border-[#2C1810] tracking-wide uppercase font-mono text-[11px]">
                 Design Fiction
               </button>
               <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
