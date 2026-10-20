@@ -658,8 +658,11 @@ export default function App() {
                 Design Fiction
               </button>
               <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-1.5 px-4 py-2 font-mono text-[11px] font-black uppercase tracking-widest text-[#F2E8D9] bg-[#C94F3B] border-2 border-[#C94F3B] shadow-[3px_3px_0_0_#1B2D5B] hover:shadow-[5px_5px_0_0_#1B2D5B] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-[1px_1px_0_0_#1B2D5B] active:translate-x-0 active:translate-y-0 transition-all duration-150">
-                <ExternalLink className="w-3 h-3 group-hover:rotate-12 transition-transform" />
+                className="group relative inline-flex items-center gap-2 px-4 py-2 font-mono text-[11px] font-black uppercase tracking-widest text-[#F2E8D9] bg-[#C94F3B] border-2 border-[#C94F3B] shadow-[3px_3px_0_0_#1B2D5B] hover:shadow-[5px_5px_0_0_#1B2D5B] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-[1px_1px_0_0_#1B2D5B] active:translate-x-0 active:translate-y-0 transition-all duration-150">
+                <span className="absolute -top-1 -right-1 w-5 h-5 z-10 group-hover:rotate-12 transition-transform">
+                  <BettyGlasses className="w-5 h-5" color="#F2E8D9" />
+                </span>
+                <SafetyPin className="w-2 h-3 text-[#F2E8D9]/60 group-hover:rotate-6 transition-transform" />
                 Veille MedTech
               </a>
             </nav>
