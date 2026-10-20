@@ -658,13 +658,23 @@ export default function App() {
                 Design Fiction
               </button>
               <a href="https://www.inkkreation.com/" target="_blank" rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-2 px-5 py-2.5 font-mono text-sm font-black uppercase tracking-wider text-[#F2E8D9] bg-[#C94F3B] border-2 border-[#1B2D5B] shadow-[4px_4px_0_0_#1B2D5B] hover:shadow-[6px_6px_0_0_#1B2D5B] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-[2px_2px_0_0_#1B2D5B] active:translate-x-0 active:translate-y-0 transition-all duration-150">
+                className="group relative inline-flex items-center gap-2 px-5 py-2.5 font-mono text-sm font-black uppercase tracking-wider text-[#1B2D5B] border-2 border-[#1B2D5B] shadow-[4px_4px_0_0_#1B2D5B] hover:shadow-[6px_6px_0_0_#1B2D5B] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-[2px_2px_0_0_#1B2D5B] active:translate-x-0 active:translate-y-0 transition-all duration-150"
+                style={{
+                  backgroundImage: `
+                    repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(27,45,91,0.08) 6px, rgba(27,45,91,0.08) 7px),
+                    repeating-linear-gradient(90deg, transparent, transparent 6px, rgba(27,45,91,0.08) 6px, rgba(27,45,91,0.08) 7px),
+                    repeating-linear-gradient(0deg, #C94F3B, #C94F3B 12px, #B83E2E 12px, #B83E2E 24px)
+                  `,
+                  backgroundSize: '14px 14px, 14px 14px, 100% 100%',
+                }}>
+                {/* Stitched dashed border */}
+                <span className="absolute inset-1 border-2 border-dashed border-[#F2E8D9]/80 pointer-events-none" />
                 <span className="absolute -top-2.5 -right-2 w-8 h-8 z-10 group-hover:rotate-12 transition-transform">
                   <EmbroideryFlower className="w-8 h-8 drop-shadow-sm" />
                 </span>
-                <SafetyPin className="w-3 h-5 text-[#F2E8D9]/70 group-hover:rotate-12 transition-transform" />
-                <ExternalLink className="w-4 h-4 group-hover:rotate-12 transition-transform" />
-                Veille MedTech
+                <SafetyPin className="w-3 h-5 text-[#F2E8D9] group-hover:rotate-12 transition-transform" />
+                <ExternalLink className="w-4 h-4 text-[#F2E8D9] group-hover:rotate-12 transition-transform" />
+                <span className="text-[#F2E8D9] relative z-10">Veille MedTech</span>
               </a>
             </nav>
           </div>
