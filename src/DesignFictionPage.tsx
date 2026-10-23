@@ -186,7 +186,7 @@ const articles: DesignArticle[] = [
     verdict: "Ce genre de design fiction bouscule les codes industriels et remet l'empathie utilisateur au centre de l'ingénierie biomédicale. Chez Convergence Santé - Inkkreation, nous pensons que la dignité des patients passe par un design qui assume la technicité, plutôt que de tenter de la cacher misérablement sous le pantalon. C'est toute la philosophie du Ugly DM : un objet d'apparence brute, mais doté d'une richesse ergonomique intérieure totale.",
     handNote: 'Du stigmate clinique → équipement outdoor autonome',
     tags: ['#Medtech', '#SwissHealthValley', '#UglyDM', '#InnovationMedicale', '#DesignFiction', '#CompressionVeineuse', '#ConvergenceSante'],
-    url: 'https://www.linkedin.com/posts/mademoiselle-jean-bompt_medtech-swisshealthvalley-uglydm-share-7473730421760118785-2nWl/',
+    url: 'https://lnkd.in/p/eKTkvwKw/',
     tapeColor: '#1F5C30',
     accentHex: '#2A6B3A',
     stampText: 'STIGMATE',
