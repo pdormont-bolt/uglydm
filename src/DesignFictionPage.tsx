@@ -183,7 +183,7 @@ const articles: DesignArticle[] = [
         text: "Grâce à une UI mécanique épurée et lisible en plein soleil, le patient sait exactement s'il doit ajuster la tension de sa bande pour éviter l'ischémie ou l'effet garrot en pleine balade. L'objet ne cherche pas à être invisible, il devient un outil de performance et d'autonomie.",
       },
     ],
-    verdict: "Ce genre de design fiction bouscule les codes industriels et remet l'empathie utilisateur au centre de l'ingénierie biomédicale. Chez Convergence Santé - Inkkreation, nous pensons que la dignité des patients passe par un design qui assume la technicité, plutôt que de tenter de la cacher misérablement sous le pantalon. C'est toute la philosophie du Ugly DM : un objet d'apparence brute, mais doté d'une richesse ergonomique intérieure totale.",
+    verdict: "Ce genre de design fiction bouscule les codes industriels et remet l'empathie utilisateur au centre de l'ingénierie biomédicale. Chez Convergence Santé, nous pensons que la dignité des patients passe par un design qui assume la technicité, plutôt que de tenter de la cacher misérablement sous le pantalon. C'est toute la philosophie du Ugly DM : un objet d'apparence brute, mais doté d'une richesse ergonomique intérieure totale.",
     handNote: 'Du stigmate clinique → équipement outdoor autonome',
     tags: ['#Medtech', '#SwissHealthValley', '#UglyDM', '#InnovationMedicale', '#DesignFiction', '#CompressionVeineuse', '#ConvergenceSante'],
     url: 'https://lnkd.in/p/ey9TTAd3',
