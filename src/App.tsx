@@ -82,6 +82,32 @@ function Heartbeat({ className = '', style }: SvgProps) {
 
 const articles = [
   {
+    id: 14,
+    episode: 'EP.14',
+    brand: 'Fauteuil de transfert · Toilettes · Dignité',
+    title: 'Le Fauteuil de Transfert pour Toilettes',
+    hook: "Redonner dignité et intimité au cœur de la dépendance.",
+    uglyDiag: "Massif, métallique, bruyant. Le fauteuil de transfert pour toilettes évoque immédiatement la dépendance, l'urgence et la perte d'intimité. Après une chirurgie, un accident ou avec une maladie neurodégénérative, passer du lit aux toilettes peut devenir une épreuve quotidienne. Pourtant, il est indispensable.",
+    whyUgly: "Un dispositif médical rarement visible dans les campagnes de design. Après une chirurgie, un accident ou avec une maladie neurodégénérative, passer du lit aux toilettes peut devenir une épreuve quotidienne. Le fauteuil est souvent massif, métallique, bruyant. Il évoque immédiatement la dépendance, l'urgence et la perte d'intimité. Pourtant, il est indispensable.",
+    revolution: [
+      { label: 'Espace mobile de dignité', text: "Sa structure reste robuste et lavable, mais ses usages sont transformés par une ergonomie discrète : accoudoirs qui s'écartent sans effort, freins accessibles d'une seule main, assise réglable, transfert latéral facilité et repose-pieds escamotables. Les surfaces de contact sont chaudes au toucher, silencieuses et non anxiogènes." },
+      { label: 'Verrouillage confirmé par retour tactile', text: "Un système de verrouillage confirme clairement, par un retour tactile plutôt que par un « clic » sonore, que le fauteuil est sécurisé. Pour une personne fragile, ne pas devoir demander « Est-ce que c'est bien bloqué ? » est déjà une forme d'autonomie." },
+      { label: 'Tablette pivotante et textile personnalisable', text: "Une tablette pivotante sert d'appui pour se relever, de surface pour poser un livre ou un téléphone, et de séparation protectrice lors des soins. Un textile amovible, choisi parmi plusieurs teintes sobres, permet de personnaliser l'objet sans le déguiser." },
+    ],
+    verdict: "Ce fauteuil ne cherche pas à paraître luxueux. Il assume sa fonction. Mais il supprime les signes inutiles de l'hôpital : les tubes exposés, les mécanismes agressifs, les bruits métalliques et l'esthétique de l'urgence. C'est un Ugly DM parce qu'il accompagne un moment intime, parfois humiliant, que personne ne souhaite montrer. Il ne promet pas de rendre la dépendance invisible. Il donne à la personne davantage de contrôle sur la manière dont elle la vit. Le véritable progrès ne consiste pas toujours à marcher à nouveau. Parfois, il consiste simplement à pouvoir aller aux toilettes sans avoir l'impression de quitter sa dignité.",
+    handNote: "Aller aux toilettes sans quitter sa dignité",
+    tags: ['#UglyDM', '#FauteuilTransfert', '#Dignité', '#Mobilité', '#Dépendance', '#DesignEmpathique', '#Ergonomie'],
+    url: 'https://www.linkedin.com/feed/update/urn:li:share:7520856208283619329',
+    tapeColor: '#5C6B7A',
+    accentHex: '#3F5A6B',
+    rotate: 'rotate-0.5',
+    stampText: 'DÉPENDANCE',
+    stampColor: '#888',
+    img: '/fauteuil-transfert-toilettes.jpg',
+    imgCaption: "Fauteuil de transfert → espace mobile de dignité",
+    imgRotate: '-0.8deg',
+  },
+  {
     id: 13,
     episode: 'EP.13',
     brand: 'Fauteuil de transfert · Design · Mobilité',
