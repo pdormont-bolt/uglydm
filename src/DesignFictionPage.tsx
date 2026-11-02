@@ -194,39 +194,6 @@ const articles: DesignArticle[] = [
     imgCaption: 'Bande K2 → équipement outdoor pour le dénivelé suisse',
     imgRotate: '-0.8deg',
   },
-  {
-    id: 4,
-    episode: 'EP.04',
-    brand: 'Fauteuil de transfert · Design · Mobilité',
-    title: 'Éclipse',
-    hook: "Le fauteuil de transfert pour personnes obèses qui réinvente la dignité par le design.",
-    uglyDiag: "Massif, métallique, difficile à manœuvrer. Le fauteuil de transfert pour personnes obèses matérialise souvent une double violence : celle du corps devenu difficile à déplacer, et celle du regard porté sur lui. Dans les établissements, ses dimensions hors normes, ses sangles visibles et ses roulettes bruyantes peuvent transformer un simple déplacement en scène publique.",
-    whyUgly: "Un dispositif médical rarement regardé comme un objet de design. Ses dimensions hors normes, ses sangles visibles et ses roulettes bruyantes transforment un simple déplacement en scène publique. La double violence du corps devenu difficile à déplacer et du regard porté sur lui s'écrit dans chaque déplacement de couloir, chaque salle d'attente traversée.",
-    revolution: [
-      {
-        label: 'Cocon mobile, pas équipement de manutention',
-        text: "La structure reste robuste et techniquement assumée, mais chaque élément est pensé pour protéger l'intimité : accoudoirs enveloppants, assise large sans effet de « siège médical », repose-pieds escamotables, poignées intégrées et textiles lavables évoquant davantage un mobilier contemporain qu'un appareil hospitalier.",
-      },
-      {
-        label: 'Interface physique alliée du soignant',
-        text: "Un code couleur discret indique les points de verrouillage. Une poignée unique permet au soignant de vérifier, sans se pencher ni exposer la personne, que le transfert est sécurisé. Des indicateurs tactiles confirment la position des freins et des repose-pieds, y compris pour les utilisateurs ayant une déficience visuelle.",
-      },
-      {
-        label: 'Écran latéral orientable',
-        text: "Un écran latéral orientable, non pas pour afficher des données cliniques, mais pour redonner le choix : trajet silencieux, arrêt, position, musique, ou signal « besoin d'intimité ». Une capote textile amovible permet de traverser un couloir ou une salle d'attente sans transformer le déplacement en spectacle.",
-      },
-    ],
-    verdict: "La vraie innovation n'est pas de camoufler le poids ou la vulnérabilité. C'est de ne plus les exposer. Comme Ugly Betty, ce fauteuil semblerait d'abord encombrant, presque ingrat. Mais sa beauté serait ailleurs : dans la réduction des gestes humiliants, dans la sécurité ressentie, dans l'autonomie retrouvée et dans la possibilité d'être déplacé sans être dépossédé de son corps. Un Ugly DM ne rend pas la maladie invisible. Il rend la dignité visible.",
-    handNote: 'De la manutention exposée → cocon mobile digne',
-    tags: ['#UglyDM', '#DesignFiction', '#Dignité', '#Mobilité', '#Obésité', '#FauteuilTransfert', '#EmpathieIndustrielle'],
-    url: 'https://www.linkedin.com/feed/update/urn:li:share:7522387053980925952',
-    tapeColor: '#7A5C3A',
-    accentHex: '#2F5D62',
-    stampText: 'SPECTACLE',
-    img: '/eclipse-fauteuil.jpg',
-    imgCaption: 'Fauteuil de transfert → cocon mobile qui protège l\'intimité',
-    imgRotate: '0.9deg',
-  },
 ];
 
 interface Props {
