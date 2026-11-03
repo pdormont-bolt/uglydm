@@ -103,7 +103,7 @@ const articles = [
     rotate: 'rotate-0.5',
     stampText: 'CIRCUIT MÉDICAL',
     stampColor: '#888',
-    img: 'https://images.pexels.com/photos/20897578/pexels-photo-20897578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    img: '/bracelet-dialyse-peritoneale.jpg',
     imgCaption: "Bracelet de dialyse péritonéale → accessoire de soin choisi",
     imgRotate: '0.8deg',
   },
